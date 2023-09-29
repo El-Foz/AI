@@ -20,7 +20,7 @@ def appendNeuron(inputs, weights, bias):
     x=0
     i=0
     for i in range(len(inputs)):
-        x+=inputs[i] * weights[i]
+        x+=float(inputs[i]) * weights[i]
     x+=bias
     return ReLU(x)
     
