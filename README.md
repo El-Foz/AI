@@ -1,0 +1,1 @@
+0 dependency (other than numpy for loading in mnist because its password protected for some reason) number recognition ai. The reason it's 0 dependency is because I hate myself.
